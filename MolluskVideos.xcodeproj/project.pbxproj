@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300FB7EE7EE6408C9FC52DE3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5098D80006B04DCFB40FE1DE /* libPods.a */; };
+		460CA3DA190EF3010019016E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3D9190EF3010019016E /* Foundation.framework */; };
+		460CA3DC190EF3010019016E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3DB190EF3010019016E /* CoreGraphics.framework */; };
+		460CA3DE190EF3010019016E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3DD190EF3010019016E /* UIKit.framework */; };
+		460CA3E4190EF3010019016E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 460CA3E2190EF3010019016E /* InfoPlist.strings */; };
+		460CA3E6190EF3010019016E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 460CA3E5190EF3010019016E /* main.m */; };
+		460CA3EA190EF3010019016E /* FWCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 460CA3E9190EF3010019016E /* FWCAppDelegate.m */; };
+		460CA3EC190EF3010019016E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460CA3EB190EF3010019016E /* Images.xcassets */; };
+		460CA3F3190EF3010019016E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3F2190EF3010019016E /* XCTest.framework */; };
+		460CA3F4190EF3010019016E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3D9190EF3010019016E /* Foundation.framework */; };
+		460CA3F5190EF3010019016E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460CA3DD190EF3010019016E /* UIKit.framework */; };
+		460CA3FD190EF3010019016E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 460CA3FB190EF3010019016E /* InfoPlist.strings */; };
+		460CA3FF190EF3010019016E /* MolluskVideosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 460CA3FE190EF3010019016E /* MolluskVideosTests.m */; };
+		4628DC88190EF60600DA4477 /* FWCMolluskVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628DC87190EF60600DA4477 /* FWCMolluskVideo.m */; };
+		4628DC8C190EF85A00DA4477 /* FWCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628DC8B190EF85A00DA4477 /* FWCMasterViewController.m */; };
+		4628DC8E190F0EA700DA4477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC8D190F0EA700DA4477 /* Main.storyboard */; };
+		4628DC92190F11F900DA4477 /* FWCVideoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628DC91190F11F900DA4477 /* FWCVideoTableViewCell.m */; };
+		4628DCA0190F20D200DA4477 /* buttonBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC94190F20D200DA4477 /* buttonBack.png */; };
+		4628DCA1190F20D200DA4477 /* buttonBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC95190F20D200DA4477 /* buttonBack@2x.png */; };
+		4628DCA2190F20D200DA4477 /* buttonOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC96190F20D200DA4477 /* buttonOrange.png */; };
+		4628DCA3190F20D200DA4477 /* buttonOrange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC97190F20D200DA4477 /* buttonOrange@2x.png */; };
+		4628DCA4190F20D200DA4477 /* cellImageBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC98190F20D200DA4477 /* cellImageBg.png */; };
+		4628DCA5190F20D200DA4477 /* cellImageBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC99190F20D200DA4477 /* cellImageBg@2x.png */; };
+		4628DCA6190F20D200DA4477 /* detailsArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9A190F20D200DA4477 /* detailsArrow.png */; };
+		4628DCA7190F20D200DA4477 /* detailsArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9B190F20D200DA4477 /* detailsArrow@2x.png */; };
+		4628DCA8190F20D200DA4477 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9C190F20D200DA4477 /* icon.png */; };
+		4628DCA9190F20D200DA4477 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9D190F20D200DA4477 /* icon@2x.png */; };
+		4628DCAA190F20D200DA4477 /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9E190F20D200DA4477 /* topbar.png */; };
+		4628DCAB190F20D200DA4477 /* topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DC9F190F20D200DA4477 /* topbar@2x.png */; };
+		4628DCAE190F22A300DA4477 /* FWCVideoDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4628DCAD190F22A300DA4477 /* FWCVideoDetailsViewController.m */; };
+		4628DCB0190F3B8C00DA4477 /* like-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DCAF190F3B8C00DA4477 /* like-50.png */; };
+		4628DCB2190F3BD700DA4477 /* visible-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4628DCB1190F3BD700DA4477 /* visible-50.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460CA3F6190EF3010019016E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460CA3CE190EF3010019016E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460CA3D5190EF3010019016E;
+			remoteInfo = MolluskVideos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		460CA3D6190EF3010019016E /* MolluskVideos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolluskVideos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460CA3D9190EF3010019016E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		460CA3DB190EF3010019016E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		460CA3DD190EF3010019016E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		460CA3E1190EF3010019016E /* MolluskVideos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MolluskVideos-Info.plist"; sourceTree = "<group>"; };
+		460CA3E3190EF3010019016E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		460CA3E5190EF3010019016E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		460CA3E7190EF3010019016E /* MolluskVideos-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MolluskVideos-Prefix.pch"; sourceTree = "<group>"; };
+		460CA3E8190EF3010019016E /* FWCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FWCAppDelegate.h; sourceTree = "<group>"; };
+		460CA3E9190EF3010019016E /* FWCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FWCAppDelegate.m; sourceTree = "<group>"; };
+		460CA3EB190EF3010019016E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		460CA3F1190EF3010019016E /* MolluskVideosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolluskVideosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460CA3F2190EF3010019016E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		460CA3FA190EF3010019016E /* MolluskVideosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MolluskVideosTests-Info.plist"; sourceTree = "<group>"; };
+		460CA3FC190EF3010019016E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		460CA3FE190EF3010019016E /* MolluskVideosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MolluskVideosTests.m; sourceTree = "<group>"; };
+		4628DC86190EF60600DA4477 /* FWCMolluskVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCMolluskVideo.h; sourceTree = "<group>"; };
+		4628DC87190EF60600DA4477 /* FWCMolluskVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWCMolluskVideo.m; sourceTree = "<group>"; };
+		4628DC8A190EF85A00DA4477 /* FWCMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCMasterViewController.h; sourceTree = "<group>"; };
+		4628DC8B190EF85A00DA4477 /* FWCMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWCMasterViewController.m; sourceTree = "<group>"; };
+		4628DC8D190F0EA700DA4477 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		4628DC90190F11F900DA4477 /* FWCVideoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCVideoTableViewCell.h; sourceTree = "<group>"; };
+		4628DC91190F11F900DA4477 /* FWCVideoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWCVideoTableViewCell.m; sourceTree = "<group>"; };
+		4628DC94190F20D200DA4477 /* buttonBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBack.png; sourceTree = "<group>"; };
+		4628DC95190F20D200DA4477 /* buttonBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBack@2x.png"; sourceTree = "<group>"; };
+		4628DC96190F20D200DA4477 /* buttonOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonOrange.png; sourceTree = "<group>"; };
+		4628DC97190F20D200DA4477 /* buttonOrange@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonOrange@2x.png"; sourceTree = "<group>"; };
+		4628DC98190F20D200DA4477 /* cellImageBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cellImageBg.png; sourceTree = "<group>"; };
+		4628DC99190F20D200DA4477 /* cellImageBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellImageBg@2x.png"; sourceTree = "<group>"; };
+		4628DC9A190F20D200DA4477 /* detailsArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detailsArrow.png; sourceTree = "<group>"; };
+		4628DC9B190F20D200DA4477 /* detailsArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detailsArrow@2x.png"; sourceTree = "<group>"; };
+		4628DC9C190F20D200DA4477 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4628DC9D190F20D200DA4477 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		4628DC9E190F20D200DA4477 /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		4628DC9F190F20D200DA4477 /* topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbar@2x.png"; sourceTree = "<group>"; };
+		4628DCAC190F22A300DA4477 /* FWCVideoDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWCVideoDetailsViewController.h; sourceTree = "<group>"; };
+		4628DCAD190F22A300DA4477 /* FWCVideoDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWCVideoDetailsViewController.m; sourceTree = "<group>"; };
+		4628DCAF190F3B8C00DA4477 /* like-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like-50.png"; sourceTree = "<group>"; };
+		4628DCB1190F3BD700DA4477 /* visible-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visible-50.png"; sourceTree = "<group>"; };
+		5098D80006B04DCFB40FE1DE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD9F250AF7C44ACE9903D00C /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460CA3D3190EF3010019016E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460CA3DC190EF3010019016E /* CoreGraphics.framework in Frameworks */,
+				460CA3DE190EF3010019016E /* UIKit.framework in Frameworks */,
+				460CA3DA190EF3010019016E /* Foundation.framework in Frameworks */,
+				300FB7EE7EE6408C9FC52DE3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460CA3EE190EF3010019016E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460CA3F3190EF3010019016E /* XCTest.framework in Frameworks */,
+				460CA3F5190EF3010019016E /* UIKit.framework in Frameworks */,
+				460CA3F4190EF3010019016E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460CA3CD190EF3010019016E = {
+			isa = PBXGroup;
+			children = (
+				4628DC93190F20B300DA4477 /* images */,
+				460CA3DF190EF3010019016E /* MolluskVideos */,
+				460CA3F8190EF3010019016E /* MolluskVideosTests */,
+				460CA3D8190EF3010019016E /* Frameworks */,
+				460CA3D7190EF3010019016E /* Products */,
+				DD9F250AF7C44ACE9903D00C /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		460CA3D7190EF3010019016E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460CA3D6190EF3010019016E /* MolluskVideos.app */,
+				460CA3F1190EF3010019016E /* MolluskVideosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		460CA3D8190EF3010019016E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				460CA3D9190EF3010019016E /* Foundation.framework */,
+				460CA3DB190EF3010019016E /* CoreGraphics.framework */,
+				460CA3DD190EF3010019016E /* UIKit.framework */,
+				460CA3F2190EF3010019016E /* XCTest.framework */,
+				5098D80006B04DCFB40FE1DE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		460CA3DF190EF3010019016E /* MolluskVideos */ = {
+			isa = PBXGroup;
+			children = (
+				4628DC8D190F0EA700DA4477 /* Main.storyboard */,
+				460CA3E8190EF3010019016E /* FWCAppDelegate.h */,
+				460CA3E9190EF3010019016E /* FWCAppDelegate.m */,
+				4628DC89190EF82700DA4477 /* controllers */,
+				4628DC85190EF5E700DA4477 /* models */,
+				4628DC8F190F11C100DA4477 /* views */,
+				460CA3EB190EF3010019016E /* Images.xcassets */,
+				460CA3E0190EF3010019016E /* Supporting Files */,
+			);
+			path = MolluskVideos;
+			sourceTree = "<group>";
+		};
+		460CA3E0190EF3010019016E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460CA3E1190EF3010019016E /* MolluskVideos-Info.plist */,
+				460CA3E2190EF3010019016E /* InfoPlist.strings */,
+				460CA3E5190EF3010019016E /* main.m */,
+				460CA3E7190EF3010019016E /* MolluskVideos-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		460CA3F8190EF3010019016E /* MolluskVideosTests */ = {
+			isa = PBXGroup;
+			children = (
+				460CA3FE190EF3010019016E /* MolluskVideosTests.m */,
+				460CA3F9190EF3010019016E /* Supporting Files */,
+			);
+			path = MolluskVideosTests;
+			sourceTree = "<group>";
+		};
+		460CA3F9190EF3010019016E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				460CA3FA190EF3010019016E /* MolluskVideosTests-Info.plist */,
+				460CA3FB190EF3010019016E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4628DC85190EF5E700DA4477 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4628DC86190EF60600DA4477 /* FWCMolluskVideo.h */,
+				4628DC87190EF60600DA4477 /* FWCMolluskVideo.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4628DC89190EF82700DA4477 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4628DC8A190EF85A00DA4477 /* FWCMasterViewController.h */,
+				4628DC8B190EF85A00DA4477 /* FWCMasterViewController.m */,
+				4628DCAC190F22A300DA4477 /* FWCVideoDetailsViewController.h */,
+				4628DCAD190F22A300DA4477 /* FWCVideoDetailsViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4628DC8F190F11C100DA4477 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4628DC90190F11F900DA4477 /* FWCVideoTableViewCell.h */,
+				4628DC91190F11F900DA4477 /* FWCVideoTableViewCell.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4628DC93190F20B300DA4477 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4628DCB1190F3BD700DA4477 /* visible-50.png */,
+				4628DCAF190F3B8C00DA4477 /* like-50.png */,
+				4628DC94190F20D200DA4477 /* buttonBack.png */,
+				4628DC95190F20D200DA4477 /* buttonBack@2x.png */,
+				4628DC96190F20D200DA4477 /* buttonOrange.png */,
+				4628DC97190F20D200DA4477 /* buttonOrange@2x.png */,
+				4628DC98190F20D200DA4477 /* cellImageBg.png */,
+				4628DC99190F20D200DA4477 /* cellImageBg@2x.png */,
+				4628DC9A190F20D200DA4477 /* detailsArrow.png */,
+				4628DC9B190F20D200DA4477 /* detailsArrow@2x.png */,
+				4628DC9C190F20D200DA4477 /* icon.png */,
+				4628DC9D190F20D200DA4477 /* icon@2x.png */,
+				4628DC9E190F20D200DA4477 /* topbar.png */,
+				4628DC9F190F20D200DA4477 /* topbar@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460CA3D5190EF3010019016E /* MolluskVideos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460CA402190EF3010019016E /* Build configuration list for PBXNativeTarget "MolluskVideos" */;
+			buildPhases = (
+				D528DC982FAB4281B1B2D100 /* Check Pods Manifest.lock */,
+				460CA3D2190EF3010019016E /* Sources */,
+				460CA3D3190EF3010019016E /* Frameworks */,
+				460CA3D4190EF3010019016E /* Resources */,
+				F4DBA585057541E387769083 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MolluskVideos;
+			productName = MolluskVideos;
+			productReference = 460CA3D6190EF3010019016E /* MolluskVideos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460CA3F0190EF3010019016E /* MolluskVideosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460CA405190EF3010019016E /* Build configuration list for PBXNativeTarget "MolluskVideosTests" */;
+			buildPhases = (
+				460CA3ED190EF3010019016E /* Sources */,
+				460CA3EE190EF3010019016E /* Frameworks */,
+				460CA3EF190EF3010019016E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460CA3F7190EF3010019016E /* PBXTargetDependency */,
+			);
+			name = MolluskVideosTests;
+			productName = MolluskVideosTests;
+			productReference = 460CA3F1190EF3010019016E /* MolluskVideosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460CA3CE190EF3010019016E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FWC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Friendly Weekday Crowd";
+				TargetAttributes = {
+					460CA3F0190EF3010019016E = {
+						TestTargetID = 460CA3D5190EF3010019016E;
+					};
+				};
+			};
+			buildConfigurationList = 460CA3D1190EF3010019016E /* Build configuration list for PBXProject "MolluskVideos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 460CA3CD190EF3010019016E;
+			productRefGroup = 460CA3D7190EF3010019016E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460CA3D5190EF3010019016E /* MolluskVideos */,
+				460CA3F0190EF3010019016E /* MolluskVideosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460CA3D4190EF3010019016E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4628DCA5190F20D200DA4477 /* cellImageBg@2x.png in Resources */,
+				4628DC8E190F0EA700DA4477 /* Main.storyboard in Resources */,
+				4628DCA9190F20D200DA4477 /* icon@2x.png in Resources */,
+				4628DCA7190F20D200DA4477 /* detailsArrow@2x.png in Resources */,
+				4628DCA6190F20D200DA4477 /* detailsArrow.png in Resources */,
+				4628DCB0190F3B8C00DA4477 /* like-50.png in Resources */,
+				4628DCA3190F20D200DA4477 /* buttonOrange@2x.png in Resources */,
+				4628DCA2190F20D200DA4477 /* buttonOrange.png in Resources */,
+				460CA3E4190EF3010019016E /* InfoPlist.strings in Resources */,
+				4628DCA0190F20D200DA4477 /* buttonBack.png in Resources */,
+				4628DCA8190F20D200DA4477 /* icon.png in Resources */,
+				4628DCB2190F3BD700DA4477 /* visible-50.png in Resources */,
+				460CA3EC190EF3010019016E /* Images.xcassets in Resources */,
+				4628DCA4190F20D200DA4477 /* cellImageBg.png in Resources */,
+				4628DCAB190F20D200DA4477 /* topbar@2x.png in Resources */,
+				4628DCA1190F20D200DA4477 /* buttonBack@2x.png in Resources */,
+				4628DCAA190F20D200DA4477 /* topbar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460CA3EF190EF3010019016E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460CA3FD190EF3010019016E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D528DC982FAB4281B1B2D100 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DBA585057541E387769083 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460CA3D2190EF3010019016E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4628DCAE190F22A300DA4477 /* FWCVideoDetailsViewController.m in Sources */,
+				4628DC92190F11F900DA4477 /* FWCVideoTableViewCell.m in Sources */,
+				460CA3E6190EF3010019016E /* main.m in Sources */,
+				4628DC88190EF60600DA4477 /* FWCMolluskVideo.m in Sources */,
+				460CA3EA190EF3010019016E /* FWCAppDelegate.m in Sources */,
+				4628DC8C190EF85A00DA4477 /* FWCMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460CA3ED190EF3010019016E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460CA3FF190EF3010019016E /* MolluskVideosTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460CA3F7190EF3010019016E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460CA3D5190EF3010019016E /* MolluskVideos */;
+			targetProxy = 460CA3F6190EF3010019016E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		460CA3E2190EF3010019016E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460CA3E3190EF3010019016E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		460CA3FB190EF3010019016E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				460CA3FC190EF3010019016E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		460CA400190EF3010019016E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		460CA401190EF3010019016E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460CA403190EF3010019016E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9F250AF7C44ACE9903D00C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MolluskVideos/MolluskVideos-Prefix.pch";
+				INFOPLIST_FILE = "MolluskVideos/MolluskVideos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		460CA404190EF3010019016E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD9F250AF7C44ACE9903D00C /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MolluskVideos/MolluskVideos-Prefix.pch";
+				INFOPLIST_FILE = "MolluskVideos/MolluskVideos-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		460CA406190EF3010019016E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MolluskVideos.app/MolluskVideos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MolluskVideos/MolluskVideos-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MolluskVideosTests/MolluskVideosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		460CA407190EF3010019016E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MolluskVideos.app/MolluskVideos";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MolluskVideos/MolluskVideos-Prefix.pch";
+				INFOPLIST_FILE = "MolluskVideosTests/MolluskVideosTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460CA3D1190EF3010019016E /* Build configuration list for PBXProject "MolluskVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460CA400190EF3010019016E /* Debug */,
+				460CA401190EF3010019016E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460CA402190EF3010019016E /* Build configuration list for PBXNativeTarget "MolluskVideos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460CA403190EF3010019016E /* Debug */,
+				460CA404190EF3010019016E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460CA405190EF3010019016E /* Build configuration list for PBXNativeTarget "MolluskVideosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460CA406190EF3010019016E /* Debug */,
+				460CA407190EF3010019016E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 460CA3CE190EF3010019016E /* Project object */;
+}
