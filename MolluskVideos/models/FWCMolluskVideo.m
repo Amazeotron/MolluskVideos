@@ -66,7 +66,7 @@
     //NSString *vidId = [NSString stringWithFormat:@"%i", self.videoID];
     NSString *vidURL = [NSString stringWithFormat:@"%@", self.videoURL];
     
-    YTVimeoExtractor *extractor = [[YTVimeoExtractor alloc] initWithURL:vidURL quality:YTVimeoVideoQualityHigh];
+    YTVimeoExtractor *extractor = [[YTVimeoExtractor alloc] initWithURL:vidURL quality:YTVimeoVideoQualityMedium];
     extractor.delegate = self;
     [extractor start];
 }

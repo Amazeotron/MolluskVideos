@@ -7,6 +7,7 @@
 //
 
 #import "FWCAppDelegate.h"
+#import "FWCMasterViewController.h"
 
 @implementation FWCAppDelegate
 

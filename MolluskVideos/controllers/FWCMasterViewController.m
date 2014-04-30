@@ -25,6 +25,12 @@
 {
     [super viewDidLoad];
     [self.navigationItem setTitle:@"Mollusk Videos"];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didBecomeActive:) name:UIApplicationDidBecomeActiveNotification object:nil];
+}
+
+- (void)didBecomeActive:(NSNotification *)notification
+{
     [self fetchVideos];
 }
 

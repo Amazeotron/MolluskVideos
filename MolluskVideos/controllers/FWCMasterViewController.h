@@ -10,4 +10,6 @@
 
 @interface FWCMasterViewController : UITableViewController
 
+- (void)fetchVideos;
+
 @end
