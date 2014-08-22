@@ -10,6 +10,7 @@
 #import <MediaPlayer/MediaPlayer.h>
 #import "FWCMolluskVideo.h"
 #import "FWCPlayButton.h"
+#import "FWCViewsIcon.h"
 
 
 @interface FWCVideoDetailsViewController : UIViewController
@@ -26,6 +27,7 @@
 @property (nonatomic, strong) FWCMolluskVideo *video;
 
 @property (nonatomic, strong) MPMoviePlayerController *playerController;
+@property (strong, nonatomic) IBOutlet FWCViewsIcon *viewsIcon;
 
 - (void)update:(FWCMolluskVideo *)video;
 

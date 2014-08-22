@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wVK-Cq-bvJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A329f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="wVK-Cq-bvJ">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -81,11 +81,11 @@
                                 </tableViewCellContentView>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <connections>
-                                    <outlet property="likesLabel" destination="ugy-pK-Raj" id="ycO-7Y-Ypw"/>
+                                    <outlet property="likesLabel" destination="ugy-pK-Raj" id="W3f-Z7-rTj"/>
                                     <outlet property="videoDate" destination="bnx-d4-pjw" id="ZoI-kc-etd"/>
                                     <outlet property="videoThumb" destination="KIs-cs-bJL" id="duu-29-Ewj"/>
                                     <outlet property="videoTitle" destination="bqO-tT-atF" id="ZxT-Vm-IC2"/>
-                                    <outlet property="viewsIcon" destination="3dn-Th-Pzs" id="RXX-2b-Waa"/>
+                                    <outlet property="viewsIcon" destination="KIs-cs-bJL" id="0Xi-Jk-YKs"/>
                                     <segue destination="7Tu-kq-AtB" kind="push" id="oHf-qM-WcV"/>
                                 </connections>
                             </tableViewCell>
@@ -280,7 +280,7 @@
                         <outlet property="videoTitleLabel" destination="G4N-0C-6xC" id="LuK-8H-AMn"/>
                         <outlet property="videoView" destination="aqw-e8-Fyy" id="T1F-OS-6zt"/>
                         <outlet property="videoViewsLabel" destination="GJq-KU-H0g" id="1Nk-KG-lGV"/>
-                        <outlet property="viewsIcon" destination="iOf-9a-7k0" id="ZGq-up-uEd"/>
+                        <outlet property="viewsIcon" destination="iOf-9a-7k0" id="8nO-IR-SX4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XlK-IP-9J6" userLabel="First Responder" sceneMemberID="firstResponder"/>

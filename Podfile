@@ -1,5 +1,5 @@
 platform :ios, '7.0'
-pod 'YTVimeoExtractor'
+pod 'YTVimeoExtractor', '~> 0.0.6'
 pod 'SBJson', '~> 4.0.1'
 pod 'Mantle', '~>  1.4.1'
 pod 'SDWebImage', '~> 3.6'

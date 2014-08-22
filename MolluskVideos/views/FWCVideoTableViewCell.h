@@ -13,6 +13,8 @@
 @property (strong, nonatomic) IBOutlet UIImageView *videoThumb;
 @property (strong, nonatomic) IBOutlet UILabel *videoTitle;
 @property (strong, nonatomic) IBOutlet UILabel *videoDate;
+@property (strong, nonatomic) IBOutlet UILabel *likesLabel;
+@property (strong, nonatomic) IBOutlet UIImageView *viewsIcon;
 
 
 @end
