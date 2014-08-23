@@ -105,7 +105,7 @@
     cell.videoTitle.text = video.title;
     cell.videoDate.text = [video uploadedDateToString];
     
-    [cell.videoThumb setImageWithURL:video.thumbnailMedium placeholderImage:[UIImage imageNamed:@"icon"]];
+    [cell.videoThumb sd_setImageWithURL:video.thumbnailMedium placeholderImage:[UIImage imageNamed:@"icon"]];
     
     return cell;
 }

@@ -38,7 +38,7 @@
     self.videoDescription.attributedText = attributedString;
     
     
-    [self.videoStill setImageWithURL:self.video.thumbnailLarge];
+    [self.videoStill sd_setImageWithURL:self.video.thumbnailLarge];
     
     self.playerController = [[MPMoviePlayerController alloc] initWithContentURL:self.video.playableVideoURL];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChangePlaybackState:) name:MPMoviePlayerPlaybackStateDidChangeNotification object:nil];
